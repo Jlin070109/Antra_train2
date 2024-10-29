@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jNKNXE48Kl8=",
+  "dgSpecHash": "1nVQTNB4X8Q=",
   "success": true,
-  "projectFilePath": "/Users/joeylin/RiderProjects/MovieShop/Infrastructure /Infrastructure.csproj",
+  "projectFilePath": "/Users/joeylin/Antra/Antra_train2/MovieShop/Infrastructure /Infrastructure.csproj",
   "expectedPackageFiles": [
     "/Users/joeylin/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/Users/joeylin/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",

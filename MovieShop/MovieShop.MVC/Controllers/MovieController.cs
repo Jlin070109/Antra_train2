@@ -1,17 +1,28 @@
-namespace MovieShop.Controllers;
+
+
+using ApplicationCore.Contracts.Services;
+using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
+using ApplicationCore.Contracts.Service;
+
+namespace MovieShop.MVC.Controllers;
 
 public class MoviesController : Controller
 {
     private readonly IMovieService _movieService;
-        
+    
     public MoviesController(IMovieService movieService)
     {
         _movieService = movieService;
     }
-        
-    public IActionResult Index()
+    
+    public async Task<IActionResult> Details(int id)
     {
-        var movies = _movieService.GetTopGrossingMovies();
-        return View(movies);
+        var movieDetails = await _movieService.GetMovieDetails(id);
+        if (movieDetails == null)
+        {
+            return NotFound();
+        }
+        return View(movieDetails);
     }
 }

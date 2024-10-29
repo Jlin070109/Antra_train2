@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/joeylin/RiderProjects/MovieShop/ApplicationCore/ApplicationCore.csproj": {}
+    "/Users/joeylin/Antra/Antra_train2/MovieShop/ApplicationCore/ApplicationCore.csproj": {}
   },
   "projects": {
-    "/Users/joeylin/RiderProjects/MovieShop/ApplicationCore/ApplicationCore.csproj": {
+    "/Users/joeylin/Antra/Antra_train2/MovieShop/ApplicationCore/ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/joeylin/RiderProjects/MovieShop/ApplicationCore/ApplicationCore.csproj",
+        "projectUniqueName": "/Users/joeylin/Antra/Antra_train2/MovieShop/ApplicationCore/ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "/Users/joeylin/RiderProjects/MovieShop/ApplicationCore/ApplicationCore.csproj",
+        "projectPath": "/Users/joeylin/Antra/Antra_train2/MovieShop/ApplicationCore/ApplicationCore.csproj",
         "packagesPath": "/Users/joeylin/.nuget/packages/",
-        "outputPath": "/Users/joeylin/RiderProjects/MovieShop/ApplicationCore/obj/",
+        "outputPath": "/Users/joeylin/Antra/Antra_train2/MovieShop/ApplicationCore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/joeylin/.nuget/NuGet/NuGet.Config"

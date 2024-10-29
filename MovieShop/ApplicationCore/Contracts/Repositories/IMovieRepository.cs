@@ -1,7 +1,18 @@
-namespace ApplicationCore.Contracts.Repositories;
+using ApplicationCore.entity;
+using ApplicationCore.Models;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
-public interface IMovieRepository:IRepository<Movie>
+using ApplicationCore.Models;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace ApplicationCore.Contracts.Services
 {
-    IEnumerable<Movie> GetTopRevenueMovies(int number=20);
-    IEnumerable<Movie> GetMoviesWithGenre();
+    public interface IMovieService
+    {
+        Task<IEnumerable<MovieCardModel>> GetTopGrossingMoviesAsync();
+        Task<Movie> GetMovieDetailsAsync(int id);
+        Task<PaginatedResultSet<MovieCardModel>> GetMoviesByGenreAsync(int genreId, int pageSize = 30, int pageNumber = 1);
+    }
 }

@@ -1,6 +1,8 @@
+using ApplicationCore.entity;
+
 namespace ApplicationCore.Contracts.Repositories;
 
-public interface IUserRepository
+public interface IUserRepository:IRepository<User>
 {
     Task<User> GetUserById(int id);
     Task<User> AddUser(User user);

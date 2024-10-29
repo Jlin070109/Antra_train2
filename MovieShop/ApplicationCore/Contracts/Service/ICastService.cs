@@ -1,6 +1,10 @@
-namespace ApplicationCore.Contracts.Service;
+using ApplicationCore.Models;
+using System.Threading.Tasks;
 
-public interface ICastService
+namespace ApplicationCore.Contracts.Services
 {
-    
+    public interface ICastService
+    {
+        Task<CastDetailsModel> GetCastDetails(int id);
+    }
 }
